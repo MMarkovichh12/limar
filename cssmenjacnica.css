@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #676666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+h1{
+    color: aqua;
+}
+p{
+    text-align: center;
+}
+.currency{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+select{
+    padding: 10px;
+    border: #dedede;
+    font-size: 16px;
+    background: transparent;
+}
+input{
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+}
+select:focus,input:focus{
+    outline: none;
+}
+@media(max-width:600px){
+    input{width: 200px;}
+    p{padding: 40px;}
+}
