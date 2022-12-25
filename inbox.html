@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="srb">
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <h2>Flappy Bird</h2>
+    <canvas id="mycanvas"></canvas>
+    <style>
+        *{
+            margin: 0;
+        }
+        html,body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: rgb(3, 125, 85);
+        }
+        canvas{
+            display: block;
+        }
+        h2{
+            color: black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom: 50px;
+        }
+    </style>
+<script src="https://unpkg.com/kaboom/dist/kaboom.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
