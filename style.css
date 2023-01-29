@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+html,body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(255, 235, 119);
+}
+canvas{
+    display: block;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    margin-bottom: 50px;
+}
